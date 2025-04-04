@@ -4,6 +4,9 @@ body {
 .clear {
     clear: both;
 }
+.add-992{
+    display: none;
+}
 a{
     color: #0178F0;
 }
@@ -261,6 +264,12 @@ footer{
     }
 }
 @media(max-width: 992px) {
+    .add-992{
+        display: block;
+    }
+    .extra-992{
+        display: none;
+    }
     .lou{
         position: relative;
         width: 450px;
