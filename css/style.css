@@ -274,6 +274,20 @@ footer{
         top: 170px;
         left: 50px;
     }
+     .lou .lou_icons img{
+        width: 140px;
+        position: absolute;
+        top: 30px;
+        left: -30px;
+    }
+    .lou .lou_icons img:first-child{
+        left: 30px;
+        top: -20px;
+    }
+    .lou .lou_icons img:last-child{
+        left: 90px;
+        top: 30px;
+    }
     h1{
         font-size: 100px;
     }
@@ -357,4 +371,14 @@ footer{
     #connect p:first-child{
         font-size: 40px;
     }
+}
+@media (max-width: 478px) {
+    .logo img {
+        margin-left: 30px;
+        width: 140px;
+    }
+    .navbar-toggler {
+        margin-right: 0px;
+    }
+
 }
