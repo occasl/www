@@ -114,6 +114,7 @@ p{
     position: absolute;
     top: 30px;
     left: 0;
+    z-index: 1000;
 }
 .lou .lou_icons img:first-child{
     left: 60px;
@@ -359,6 +360,9 @@ footer{
     .text-huge{
         font-size: 60px;
     }
+    #testimonials img{
+        margin-bottom: 40px;
+    }
 }
 @media (max-width: 576px) {
     .connect-circle{
@@ -379,6 +383,16 @@ footer{
     }
     .navbar-toggler {
         margin-right: 0px;
+    }
+    .lou{
+        width: 100%;
+    }
+    .lou .lou_icons img {
+       width: 100px;
+        left: 0px;
+    }
+    .lou .lou_icons img:last-child{
+        left: 60px;
     }
 
 }
